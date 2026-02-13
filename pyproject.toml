@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "blackholeCalc"
+version = "1.1.0"
+description = "A scientific Python library for analytical modeling, thermodynamic analysis, visualization, and gravitational wave synthesis of relativistic black hole systems."
+readme = "README.md"
+requires-python = ">=3.8"
+
+authors = [
+    { name="Yashasvi Sharma" },
+    { name="Aditya Sharma" }
+]
+
+license = { text = "MIT" }
+
+keywords = [
+    "black hole",
+    "general relativity",
+    "kerr metric",
+    "schwarzschild",
+    "gravitational waves",
+    "hawking radiation",
+    "astrophysics",
+    "relativity",
+    "scientific computing"
+]
+
+dependencies = [
+    "numpy",
+    "scipy",
+    "matplotlib"
+]
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Education",
+    "Topic :: Scientific/Engineering :: Physics",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+]
